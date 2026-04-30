@@ -1,0 +1,41 @@
+2026-04-30 15:17:03,523 [INFO] Creating sample data...
+2026-04-30 15:17:03,537 [INFO] Parquet created: output/employees.parquet
+2026-04-30 15:17:03,538 [INFO] Connecting to Snowflake...
+2026-04-30 15:17:03,538 [INFO] Snowflake Connector for Python Version: 4.4.0, Python Version: 3.12.1, Platform: Linux-6.8.0-1044-azure-x86_64-with-glibc2.39
+2026-04-30 15:17:03,538 [INFO] Connecting to GLOBAL Snowflake domain
+2026-04-30 15:17:04,917 [ERROR] Pipeline failed: 002043 (02000): 01c40eb5-0001-dac4-0000-000d888a5071: SQL compilation error:
+Object does not exist, or operation cannot be performed.
+2026-04-30 15:20:41,803 [INFO] Creating sample data...
+2026-04-30 15:20:41,814 [INFO] Parquet created: output/employees.parquet
+2026-04-30 15:20:41,815 [INFO] Connecting to Snowflake...
+2026-04-30 15:20:41,815 [INFO] Snowflake Connector for Python Version: 4.4.0, Python Version: 3.12.1, Platform: Linux-6.8.0-1044-azure-x86_64-with-glibc2.39
+2026-04-30 15:20:41,815 [INFO] Connecting to GLOBAL Snowflake domain
+2026-04-30 15:20:42,835 [INFO] Connected to Snowflake
+2026-04-30 15:20:42,835 [INFO] Creating table...
+2026-04-30 15:20:43,002 [INFO] Table ready
+2026-04-30 15:20:43,002 [INFO] Creating stage...
+2026-04-30 15:20:43,077 [INFO] Stage ready
+2026-04-30 15:20:43,077 [INFO] Uploading file to stage...
+2026-04-30 15:20:44,517 [INFO] File uploaded
+2026-04-30 15:20:44,518 [INFO] Loading data into Snowflake...
+2026-04-30 15:20:45,572 [INFO] Data loaded
+2026-04-30 15:20:45,572 [INFO] Validating data...
+2026-04-30 15:20:45,857 [INFO] Validation complete. Rows: 3
+2026-04-30 15:46:15,443 [INFO] Connecting to Snowflake
+2026-04-30 15:46:15,444 [INFO] Snowflake Connector for Python Version: 4.4.0, Python Version: 3.12.1, Platform: Linux-6.8.0-1044-azure-x86_64-with-glibc2.39
+2026-04-30 15:46:15,445 [INFO] Connecting to GLOBAL Snowflake domain
+2026-04-30 15:46:17,390 [INFO] Extracting data
+2026-04-30 15:46:17,397 [INFO] Processing employees
+2026-04-30 15:46:18,824 [ERROR] employees mismatch 3 vs 5
+2026-04-30 15:46:18,825 [INFO] Processing departments
+2026-04-30 15:46:19,568 [ERROR] departments mismatch 2 vs 5
+2026-04-30 15:46:19,612 [INFO] Pipeline completed successfully
+2026-04-30 15:58:00,606 [INFO] Connecting to Snowflake
+2026-04-30 15:58:00,606 [INFO] Snowflake Connector for Python Version: 4.4.0, Python Version: 3.12.1, Platform: Linux-6.8.0-1044-azure-x86_64-with-glibc2.39
+2026-04-30 15:58:00,606 [INFO] Connecting to GLOBAL Snowflake domain
+2026-04-30 15:58:01,743 [INFO] Extracting data
+2026-04-30 15:58:01,748 [INFO] Processing employees
+2026-04-30 15:58:03,561 [ERROR] employees mismatch 3 vs 5
+2026-04-30 15:58:03,561 [INFO] Processing departments
+2026-04-30 15:58:04,775 [ERROR] departments mismatch 2 vs 5
+2026-04-30 15:58:04,823 [INFO] Pipeline completed successfully
